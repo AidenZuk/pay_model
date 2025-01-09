@@ -321,6 +321,7 @@ impl PaymentSettledByProxy {
             serv_id: self.serv_id,
             receiver: self.receiver,
             sig_sender: self.sig_sender,
+            amount:self.amount,
         };
         
         // 2. 使用Payment的方法获取签名者地址

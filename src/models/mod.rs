@@ -7,7 +7,7 @@ pub mod hashstore;
 pub mod pay_id_infos;
 pub mod proof;
 pub mod segment_vc;
-pub mod segment_vc_builder;
+
 use alloy_primitives::{U256,B256};
 use serde::{Deserialize, Serialize};
 use sp1_zkvm::io as spio;

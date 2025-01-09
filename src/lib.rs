@@ -377,6 +377,7 @@ impl ProxySettlementResult {
 impl From<ProfitResult> for ProfitResultStruct {
     fn from(result: ProfitResult) -> Self {
         ProfitResultStruct {
+            vks_hash: B256::ZERO,
             receiver: Address::from_slice(&result.receiver),
             proxy: Address::from_slice(&result.proxy),
             receipts_root: result.receipts_root,
