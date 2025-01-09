@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 alloy-sol-types = { version = "0.8.15" }
-alloy-primitives = { version = "0.8.15", features = ["serde"]}
+alloy-primitives = { version = "0.8.18", features = ["serde"]}
 libsecp256k1 = "0.7.1"
 
 
